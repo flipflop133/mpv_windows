@@ -33,7 +33,7 @@
 //!WHEN OUTPUT.w OUTPUT.h * LUMA.w LUMA.h * / 1.0 > ! OUTPUT.w OUTPUT.h * LUMA.w LUMA.h * / 1.0 < ! *
 
 // User variables
-#define SHARPNESS 0.8 // Amount of sharpening. 0.0 to 1.0.
+#define SHARPNESS 0.5 // Amount of sharpening. 0.0 to 1.0.
 #define NIS_THREAD_GROUP_SIZE 256 // May be set to 128 for better performance on NVIDIA hardware, otherwise set to 256. Don't forget to modify the COMPUTE directive accordingly as well (e.g., COMPUTE 32 32 128 1).
 #define NIS_HDR_MODE 0 // Must be set to 1 for content with PQ colorspace. 0 or 1.
 

@@ -1,3 +1,0 @@
-start=605.366667
-pause=yes
-af=%263%highpass=f=200,lowpass=f=3000,asendcmd=%2%@0=%19%0.0 afftdn sn start,asendcmd=%2%@0=%18%4.0 afftdn sn stop,afftdn=nr=20:nf=-40:tn=1,arnndn=m=%59%C:\Users\franc\Desktop\mpv\portable_config\filters\std.rnnn,anlmdn,dialoguenhance,lavfi=graph=%20%loudnorm=I=-16:LRA=4
